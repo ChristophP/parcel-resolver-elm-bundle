@@ -12,6 +12,7 @@
   "peerDependencies": {
     "elm": "^0.19.1-5"
   },
+  "files": ["src/resolve.js", "src/resolver.js"],
   "dependencies": {
     "@parcel/diagnostic": "^2.6.2",
     "@parcel/plugin": "^2.6.2",
