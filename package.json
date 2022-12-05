@@ -1,13 +1,22 @@
 {
   "name": "parcel-resolver-elm-bundle",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy bundling of multiple elm source files into a single output with the parcel bundler ",
   "main": "src/resolver.js",
   "scripts": {
     "test": "jest src/"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChristophP/parcel-resolver-elm-bundle"
+  },
+  "keywords": [
+    "parcel",
+    "elm",
+    "compile",
+    "bundle"
+  ],
+  "author": "https://github.com/ChristophP",
   "license": "ISC",
   "peerDependencies": {
     "elm": "^0.19.1-5"
