@@ -1,8 +1,5 @@
 # Parcel resolver elm bundle
 
-**This package is already prepared for when supports multi module Elm compilation.
-You can track the progress in this PR: https://github.com/parcel-bundler/parcel/pull/8076**
-
 This is a resolver for parcel to make it easier to bundle multiple elm
 source files into one.
 

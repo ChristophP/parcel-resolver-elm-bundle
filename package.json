@@ -2,7 +2,7 @@
   "name": "parcel-resolver-elm-bundle",
   "version": "0.2.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/resolver.js",
   "scripts": {
     "test": "jest src/"
   },
@@ -12,7 +12,10 @@
   "peerDependencies": {
     "elm": "^0.19.1-5"
   },
-  "files": ["src/resolve.js", "src/resolver.js"],
+  "files": [
+    "src/resolve.js",
+    "src/resolver.js"
+  ],
   "dependencies": {
     "@parcel/diagnostic": "^2.6.2",
     "@parcel/plugin": "^2.6.2",
