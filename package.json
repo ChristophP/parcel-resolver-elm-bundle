@@ -1,6 +1,6 @@
 {
   "name": "parcel-resolver-elm-bundle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy bundling of multiple elm source files into a single output with the parcel bundler ",
   "main": "src/resolver.js",
   "scripts": {
