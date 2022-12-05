@@ -16,7 +16,7 @@ elm make MainA.elm MainB.elm MainC.elm
 ```json
 {
   "extends": "@parcel/config-default",
-  "resolvers": ["parcel-resolver-elm", "..."]
+  "resolvers": ["parcel-resolver-elm-bundle", "..."]
 }
 ```
 

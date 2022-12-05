@@ -32,7 +32,7 @@ async function resolve({dependency, options, specifier, __testConfig}) {
 
         let newSpecifier = `${mod[0]}?${mod
           .slice(1)
-          .map(m => path.relative(mainDir, path.resolve(pkgDir, m)))
+          .map(m => `with=${path.relative(mainDir, path.resolve(pkgDir, m))}`)
           .join('&')}`;
 
         return {

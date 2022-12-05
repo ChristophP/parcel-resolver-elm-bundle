@@ -18,6 +18,9 @@
   ],
   "author": "https://github.com/ChristophP",
   "license": "ISC",
+  "engines": {
+    "parcel": "^2.6.2"
+  },
   "peerDependencies": {
     "elm": "^0.19.1-5"
   },
